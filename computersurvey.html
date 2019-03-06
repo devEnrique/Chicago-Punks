@@ -1,0 +1,165 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Personal Computer Use Survey</title>
+<!--Add the following meta tag to remove warning - but make sure you set the encoding to UTF-8 (no bom) before you save the file -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8 "/> 
+<style type="text/css">
+body{
+background-color:#D0EAFF;
+
+}
+form{
+background-color:red;
+width:700px;
+height:850px;
+padding-left:10px;
+padding-right:10px;
+margin-left:auto;
+margin-right:auto;
+border:outset;
+border-color:black;
+
+}
+h1{
+text-align:center;
+color:white;
+font-weight:bolder;
+text-shadow: 3px 3px black;
+}
+
+
+
+legend{
+	border:inset 1px #D0EAFF;
+	background-color:#D0EAFF;
+	padding:3px 5px;
+	font-weight:bolder;	
+	margin-bottom:5px;
+	margin-top:5px;
+	border-radius: 2px;
+}
+
+option{
+padding-left:10px;
+padding-right:10px;
+}
+fieldset{
+background-color:#ECECEC;
+
+}
+
+</style>
+</head>
+<body>
+
+<form method="post" action="">
+<h1>Personal Computer Use Survey</h1>
+
+<fieldset>
+<legend>
+Personal Information:
+</legend>
+
+
+<p>
+<label class="Username" for="FirstName" style="padding-left:10px">
+First Name:</label> 
+<input type="text" name="FirstName" id="FirstName" size="50px" maxlength="35"/>
+</p>
+
+
+
+<p>
+<label class="Username" for="lastname" style="padding-left:10px">
+Last Name:</label> 
+<input type="text" name="lastname" id="lastname" size="50px" maxlength="35"/>
+</p>
+</fieldset>
+
+<fieldset>
+<legend>
+Survey Questions:
+</legend>
+<p>Have you ever taken an online survey?</p>
+
+<input type="radio" name="onechoice" value="yes" /> yes
+
+<input type="radio" name="onechoice" value="no" /> no
+
+<p>Choose your age range.</p>
+<p>
+  <input type="checkbox" name="checkallapply" value="10-20" />10-20 
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <input type="checkbox" name="checkallapply" value="21-30" />21-30
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <input type="checkbox" name="checkallapply" value="31-40" />31-40
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <input type="checkbox" name="checkallapply" value="41-50" />41-50
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <input type="checkbox" name="checkallapply" value="51-60" />51-60
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <input type="checkbox" name="checkallapply" value="over 60" />Over 60
+</p>
+
+
+<p>Select all the uses you have for computers.<br /><span style="font-size:13px">*Click ctrl + click to select multiple options. </span></p>
+<select multiple="multiple" size="3">
+<optgroup label="Commerce" >
+		<option>Bill paying</option>
+		<option>Banking</option>
+		<option>Shopping</option>
+	</optgroup>
+</select>
+&nbsp;  &nbsp; &nbsp;  &nbsp; 
+<select multiple="multiple" size="3">
+<optgroup label="Entertainment" >
+		<option>MMORPG</option>
+		<option>Watching youtube</option>
+		<option>Downloading music</option>
+	</optgroup>
+</select >
+&nbsp; &nbsp; &nbsp;  &nbsp; 
+<select multiple="multiple" size="3">
+<optgroup label="Entertainment" >
+		<option>Reading the news</option>
+		<option>Looking up information</option>
+		<option>Blogging</option>
+	</optgroup>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Additional Comments About Your Computer Use:</legend>
+<textarea name="adcomments" rows="7" cols="55"> Enter your additional comments here.....
+</textarea>
+</fieldset>
+
+<fieldset>
+<legend>Submit Your Information or Reset the Form:</legend>	
+	<button type="submit" style="background-color:white;">Submit</button>
+
+  <button type="reset" style="background-color:white;">Reset the Form</button>
+
+
+</fieldset>
+
+</form>
+
+
+ <p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+  </p>
+
+
+
+
+
+
+
+
+</body>
+</html>
